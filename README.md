@@ -62,8 +62,8 @@ This script creates a local virtual environment, installs dependencies, and laun
 ### Manual setup
 
 ```bash
-git clone https://github.com/Danny625/angry-birds-physics-engine.git
-cd angry-birds-physics-engine
+git clone https://github.com/Danny625/physics-game-engine-api.git
+cd physics-game-engine-api
 python -m pip install -r requirements.txt
 cd game
 python pygame_main.py
@@ -306,7 +306,7 @@ http://127.0.0.1:8000/docs
 The project is split into layers so the game logic, UI, persistence, API, and tests each have clear responsibilities.
 
 ```text
-angry-birds-physics-engine/
+physics-game-engine-api/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
